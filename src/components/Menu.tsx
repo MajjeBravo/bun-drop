@@ -1,34 +1,36 @@
 import {
-  Avatar,
   Box,
   IconButton,
   List,
   ListItem,
-  ListItemAvatar,
   ListItemText,
   Typography,
 } from "@mui/material";
-import React from "react";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import useMenu from "../hooks/useMenu";
 import useCart from "../hooks/useCart";
 
-
-
 function Menu() {
-    const menu = useMenu()
-    const {addToCart} = useCart()
+  const menu = useMenu();
+  const { addToCart } = useCart();
   return (
     <List sx={{ width: "100%", bgcolor: "background.paper" }}>
       {menu.map((item) => (
-        <ListItem sx={{width: "100%", justifyContent: "space-between"}}>
-          <Box sx={{display : "flex"}}>
+        <ListItem sx={{ width: "100%", justifyContent: "space-between" }}>
+          <Box sx={{ display: "flex" }}>
             <img
-              src={require(`../${item.image}.png`)}
+              src={require(`../images/${item.image}.png`)}
               alt={item.name}
               width={"128px"}
             />
-            <ListItemText primary={item.name} secondary={item.description} />
+            <Box sx={{ display: "flex", flexDirection: "column" }}>
+              <ListItemText
+                sx={{ ml: 2 }}
+                primary={item.name}
+                secondary={item.description}
+              />
+              <ListItemText sx={{ ml: 2 }} primary={`${item.price}kr`} />
+            </Box>
           </Box>
           <IconButton size="large" onClick={() => addToCart(item.id)}>
             <AddShoppingCartIcon />
