@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   IconButton,
   List,
   ListItem,
@@ -8,21 +9,24 @@ import {
 } from "@mui/material";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import useCart from "../hooks/useCart";
+import { useNavigate } from "react-router-dom";
 
 function Cart() {
   const { cart, removeFromCart, totalPrice } = useCart();
+  const navigate = useNavigate()
   return (
     <Box>
       <List sx={{ width: "100%" }}>
+        {!cart.length && <Typography variant="h3" margin={4}>Kundvagnen är tom</Typography>}
         {cart.map((item) => (
           <ListItem sx={{ width: "100%", justifyContent: "space-between" }}>
             <Box sx={{ display: "flex" }}>
               <img
-                src={require(`../${item.image}.png`)}
+                src={require(`../images/${item.image}.png`)}
                 alt={item.name}
                 width={"128px"}
               />
-              <Box>
+              <Box sx={{ml: 2}}>
                 <ListItemText primary={item.name} secondary={item.price + "kr"} />
                 <ListItemText primary={"Antal: " + item.quantity} />
               </Box>
@@ -44,7 +48,10 @@ function Cart() {
           </ListItem>
         ))}
       </List>
-      <Typography>{"Totalpris: " + totalPrice + "kr"}</Typography>
+     {  !!cart.length && <Box sx={{display: "flex", column: "row", justifyContent: "space-between", mx: 3}}>
+      <Typography variant="h3">{"Totalpris: " + totalPrice + "kr"}</Typography>
+      <Button onClick={() => navigate("/payment")} variant="contained">Betala</Button>
+      </Box>}
     </Box>
   );
 }
