@@ -1,0 +1,80 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "image": "burger-1",
+      "name": "Orginalmålet",
+      "description": "example text todo",
+      "price": 69
+    },
+    {
+      "id": 2,
+      "image": "burger-2",
+      "name": "BLM Burger",
+      "description": "example text todo",
+      "price": 69
+    },
+    {
+      "id": 3,
+      "image": "burger-3",
+      "name": "Double Penetration",
+      "description": "example text todo",
+      "price": 69
+    },
+    {
+      "id": 4,
+      "image": "burger-4",
+      "name": "Sesam öppna dig",
+      "description": "example text todo",
+      "price": 69
+    },
+    {
+      "id": 5,
+      "image": "burger-5",
+      "name": "Kroksbäck",
+      "description": "Munjajao",
+      "price": 69
+    },
+    {
+      "id": 6,
+      "image": "burger-6",
+      "name": "White lives matter",
+      "description": "example text todo",
+      "price": 69
+    },
+    {
+      "id": 7,
+      "image": "burger-7",
+      "name": "Lucky nr 7",
+      "description": "example text todo",
+      "price": 69
+    },
+    {
+      "id": 8,
+      "image": "burger-8",
+      "name": "8-ball",
+      "description": "example text todo",
+      "price": 69
+    }
+    ,{
+      "id": 9,
+      "image": "burger-9",
+      "name": "Gangbang",
+      "description": "example text todo",
+      "price": 69
+    }  ,{
+      "id": 10,
+      "image": "fries-1",
+      "name": "Nice Fries",
+      "description": "example text todo",
+      "price": 69
+    } ,{
+      "id": 11,
+      "image": "fries-2",
+      "name": "Trump Fries",
+      "description": "example text todo",
+      "price": 143
+    }
+  ],
+  "items": ["Mushroom", "Fire flower", "Green shell"]
+}

@@ -79,7 +79,7 @@ function Payment() {
           <Typography variant="h3"> Din Leverans är påväg</Typography>
 
           <Typography variant="h3">
-            {`Anländer om ${Math.round(Math.random() * 100)} minuter`}
+            {`Anländer om ${Math.round(Math.random() * 60)} minuter`}
           </Typography>
 
           <DeliveryDiningIcon sx={{ fontSize: "256px" }} />
