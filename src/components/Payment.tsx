@@ -26,7 +26,7 @@ function Payment() {
     <Box>
       {step === 1 && (
         <Box sx={{ display: "flex", flexDirection: "column", m: 32, mt: 8 }}>
-          <Typography variant="h3">Fyll leveransuppgifter</Typography>
+          <Typography variant="h3">Fyll i leveransuppgifter</Typography>
           <TextField name="name" placeholder="Namn" />
           <TextField name="lastname" placeholder="Efternamn" />
           <TextField name="Address" placeholder="Adress" />
@@ -79,7 +79,7 @@ function Payment() {
           <Typography variant="h3"> Din Leverans är påväg</Typography>
 
           <Typography variant="h3">
-            {`Anländer om ${Math.round(Math.random() * 60)} minuter`}
+            {`Anländer om ${Math.round(Math.random() * 100)} minuter`}
           </Typography>
 
           <DeliveryDiningIcon sx={{ fontSize: "256px" }} />
