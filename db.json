@@ -1,0 +1,111 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "image": "burger-1",
+      "name": "Orginal",
+      "description": "Orginalburgare, 200gram grillat nötkött, krispig sallad, tomat, bacon och massa godigheter",
+      "price": 70
+    },
+    {
+      "id": 2,
+      "image": "burger-2",
+      "name": "BLM Burger",
+      "description": "Black is beautiful, Charcoal buns med krispig bacon, gurka, lök, frasig lökring",
+      "price": 80
+    },
+    {
+      "id": 3,
+      "image": "burger-3",
+      "name": "Double Penetration",
+      "description": "150 gram grillat nötkött x 2!!, specialdressing, kripig sallad, tomat, lök, gurka, smält ost. Dubbelt så gott",
+      "price": 85
+    },
+    {
+      "id": 4,
+      "image": "burger-4",
+      "name": "Sesam Delight",
+      "description": "150 gram gillat nötkött x 2!!, dubbla skivor ost, karameliserad lök, färsk chili, allt omslutet av vårt egna hemmagjorda sesambröd",
+      "price": 85
+    },
+    {
+      "id": 5,
+      "image": "burger-5",
+      "name": "Double cheese BBQ",
+      "description": "En krämig dubble cheeseburgare med BBQ sås, extra kött, extra ost",
+      "price": 90
+    },
+    {
+      "id": 6,
+      "image": "burger-6",
+      "name": "White lives matter",
+      "description": "Vegan burgare, köttsubstitut, inga kryddor, perfekt för den utan smaklökar",
+      "price": 40
+    },
+    {
+      "id": 7,
+      "image": "burger-7",
+      "name": "Lucky nr 7",
+      "description": "200gram grillat nötkött, karameliserad svamp och lök, syrlad lök, 2 olika sorters ost, Its your lucky day!",
+      "price": 77
+    },
+    {
+      "id": 8,
+      "image": "burger-8",
+      "name": "8-ball",
+      "description": "Klassiker, 300gram grillat nötkött, 2 sorters ost, special sås, krispigt bacon, seasam bröd",
+      "price": 80
+    }
+    ,{
+      "id": 9,
+      "image": "burger-9",
+      "name": "GANGBANG",
+      "description": "Ju fler desto bättre, 400 gram kött, 4 skivor ost, färska grönsaker.. Vågar du?",
+      "price": 110
+    }  ,{
+      "id": 10,
+      "image": "fries-1",
+      "name": "Classic Fries",
+      "description": "Krispiga pommes med krydda",
+      "price": 40
+    } ,{
+      "id": 11,
+      "image": "fries-2",
+      "name": "Trump Fries",
+      "description": "Make Fries Great Again, Sötpotatis pommes, extra oranga",
+      "price": 40
+    },{
+      "id": 12, 
+      "image": "milkshake-1",
+      "name": "Banana Split Shake",
+      "description": "Banan, glass, chokladsås, krossad oreos... mmmmm!!",
+      "price": 45
+    }, {
+      "id": 13,
+      "image": "soda-1",
+      "name": "Lemoande",
+      "description": "Vår egna hemmagjorda lemonad, extra sur, extra gott",
+      "price" : 35
+    },{
+      "id": 14,
+      "image": "soda-2",
+      "name": "Fuzzy Strawberry",
+      "description": "Jordgubbar + vanilj? En läskande sommardryck",
+      "price" : 35
+    },
+    {
+      "id": 15,
+      "image": "soda-3",
+      "name": "Calpis Water",
+      "description": "Kolsyrat vatten med smak av blåbär",
+      "price" : 25
+    },{
+      "id": 16,
+      "image": "soda-4",
+      "name": "Energy",
+      "description": "Energy dryck, smak av kokos och lime",
+      "price" : 35
+    }
+  ],
+  "items": ["Mushroom", "Fire flower", "Green shell"]
+}

@@ -26,7 +26,7 @@ function Payment() {
     <Box>
       {step === 1 && (
         <Box sx={{ display: "flex", flexDirection: "column", m: 32, mt: 8 }}>
-          <Typography variant="h3">Fyll leveransuppgifter</Typography>
+          <Typography variant="h3">Fyll i leveransuppgifter</Typography>
           <TextField name="name" placeholder="Namn" />
           <TextField name="lastname" placeholder="Efternamn" />
           <TextField name="Address" placeholder="Adress" />
